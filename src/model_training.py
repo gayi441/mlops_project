@@ -63,8 +63,8 @@ class ModelTraining:
             logger.info("Confusion matrix implemented succesfully..")
 
         except Exception as e:
-            logger.error(f"Error while implementing Confusion matrix : {e}")
-            raise CustomException("Error while implementing Confusion matrix", e)
+            logger.error(f"Erro while implementing Confusion matrix : {e}")
+            raise CustomException("Erro while implementing Confusion matrix", e)
     def run(self):
         x_train,x_test,y_train,y_test = self.load_data()
         self.train_model(x_train,y_train)
