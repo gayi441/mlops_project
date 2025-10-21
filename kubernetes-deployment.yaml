@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mlops-app
-        image: us-central1-docker.pkg.dev/gcpproject-474009/mlop/mlops-app:latest
+        image: asia-south1-docker.pkg.dev/cloud-project-474414/my-docker-repo
         ports:
         - containerPort: 5000
 
